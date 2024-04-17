@@ -13,6 +13,9 @@ const path = require("path");
 
   const fileExtension = ["jpg", "jpeg", "png", "gif", "svg", "webp", "ico"];
   const dirPath = "./image";
+  if (!fs.existsSync(dirPath)) {
+    fs.mkdirSync(dirPath);
+  }
   const uploadImage = (imageUrl, bin, instance, filename) =>
     fetch(imageUrl)
       .then((res) => res.arrayBuffer())
