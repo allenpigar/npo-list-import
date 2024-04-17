@@ -1,0 +1,170 @@
+{
+  "parentZUID": "",
+  "description": "Registering Causes",
+  "label": "Causes",
+  "metaTitle": null,
+  "metaDescription": null,
+  "metaKeywords": null,
+  "type": "pageset",
+  "name": "causes",
+  "listed": true,
+  "fields": [
+    {
+      "name": "name",
+      "label": "Name",
+      "description": "",
+      "datatype": "text",
+      "sort": 0,
+      "required": false,
+      "relationship": null,
+      "options": null,
+      "fieldOptions": null,
+      "datatypeOptions": null,
+      "settings": {
+        "list": true
+      },
+      "relatedModelZUID": null,
+      "relatedFieldZUID": null
+    },
+    {
+      "name": "website",
+      "label": "Website",
+      "description": "",
+      "datatype": "link",
+      "sort": 4,
+      "required": false,
+      "relationship": null,
+      "options": null,
+      "fieldOptions": null,
+      "datatypeOptions": null,
+      "settings": {
+        "list": true
+      },
+      "relatedModelZUID": null,
+      "relatedFieldZUID": null
+    },
+    {
+      "name": "logo",
+      "label": "Logo",
+      "description": "",
+      "datatype": "images",
+      "sort": 1,
+      "required": false,
+      "relationship": null,
+      "options": null,
+      "fieldOptions": null,
+      "datatypeOptions": null,
+      "settings": {
+        "group_id": "",
+        "limit": "",
+        "list": true
+      },
+      "relatedModelZUID": null,
+      "relatedFieldZUID": null
+    },
+    {
+      "name": "hero_image",
+      "label": "Hero Image",
+      "description": "",
+      "datatype": "images",
+      "sort": 2,
+      "required": false,
+      "relationship": null,
+      "options": null,
+      "fieldOptions": null,
+      "datatypeOptions": null,
+      "settings": {
+        "group_id": "",
+        "limit": "",
+        "list": true
+      },
+      "relatedModelZUID": null,
+      "relatedFieldZUID": null
+    },
+    {
+      "name": "donate_link",
+      "label": "Donate Link",
+      "description": "",
+      "datatype": "link",
+      "sort": 5,
+      "required": false,
+      "relationship": null,
+      "options": null,
+      "fieldOptions": null,
+      "datatypeOptions": null,
+      "settings": {
+        "list": true
+      },
+      "relatedModelZUID": null,
+      "relatedFieldZUID": null
+    },
+    {
+      "name": "phone_number",
+      "label": "Phone Number",
+      "description": "",
+      "datatype": "text",
+      "sort": 0,
+      "required": false,
+      "relationship": null,
+      "options": null,
+      "fieldOptions": null,
+      "datatypeOptions": null,
+      "settings": {
+        "list": true
+      },
+      "relatedModelZUID": null,
+      "relatedFieldZUID": null
+    },
+    {
+      "name": "headquarters_address",
+      "label": "Headquarters Address",
+      "description": "",
+      "datatype": "text",
+      "sort": 0,
+      "required": false,
+      "relationship": null,
+      "options": null,
+      "fieldOptions": null,
+      "datatypeOptions": null,
+      "settings": {
+        "list": true
+      },
+      "relatedModelZUID": null,
+      "relatedFieldZUID": null
+    },
+    {
+      "name": "organization_type",
+      "label": "Organization Type",
+      "description": "",
+      "datatype": "text",
+      "sort": 0,
+      "required": false,
+      "relationship": null,
+      "options": null,
+      "fieldOptions": null,
+      "datatypeOptions": null,
+      "settings": {
+        "list": true
+      },
+      "relatedModelZUID": null,
+      "relatedFieldZUID": null
+    },
+    {
+      "name": "cause_description",
+      "label": "Cause Description",
+      "description": "",
+      "datatype": "wysiwyg_basic",
+      "sort": 3,
+      "required": false,
+      "relationship": null,
+      "options": null,
+      "fieldOptions": null,
+      "datatypeOptions": null,
+      "settings": {
+        "list": true
+      },
+      "relatedModelZUID": null,
+      "relatedFieldZUID": null
+    }
+  ]
+}
